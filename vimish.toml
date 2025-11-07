@@ -1,0 +1,74 @@
+"ui.background" = { bg = "black" }
+"ui.bufferline" = { fg = "black", bg = "gray", modifiers = ["bold"] }
+"ui.bufferline.active" = { fg = "gray", bg = "black", modifiers = ["bold"] }
+"ui.cursor" = { fg = "green", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "light-cyan", bg = "blue" }
+"ui.cursor.primary.normal" = { bg = "off-white" }
+"ui.cursor.primary.insert" = { bg = "blue" }
+"ui.cursor.primary.select" = { bg = "yellow" }
+"ui.menu" = { fg = "white", bg = "blackish" }
+"ui.menu.selected" = { fg = "yellow" }
+"ui.popup" = { fg = "off-white", bg = "blackish" }
+"ui.selection" = { bg = "gray" }
+"ui.statusline" = { fg = "black", bg = "gray", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "black", bg = "light-yellow" }
+"ui.statusline.insert" = { fg = "black", bg = "light-cyan" }
+"ui.statusline.select" = { fg = "black", bg = "yellow" }
+"ui.text" = { fg = "white" }
+"ui.text.info" = { fg = "white", bg = "blackish" }
+"ui.text.focus" = { fg = "yellow" }
+"ui.virtual.wrap" = { fg = "dark-blue" }
+"ui.virtual.indent-guide" = { fg = "light-black" }
+"ui.virtual.ruler" = { bg = "white" }
+"ui.window" = { fg = "gray" }
+"ui.help" = { bg = "blackish"}
+"ui.linenr" = { fg = "light-black"}
+"ui.linenr.selected" = { fg = "yellow"}
+
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "dark-cyan", style = "curl" } }
+"diagnostic.info" = { underline = { color = "dark-white", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"warning" = { fg = "yellow" }
+"error" = { fg = "red" }
+"info" = { fg = "default" }
+"hint" = { fg = "cyan" }
+
+"type" = "green"
+"constructor" = "light-cyan"
+"constant" = "magenta"
+"constant.numeric" = "magenta"
+"constant.character.escape" = "yellow"
+"string" = "magenta"
+"comment" = "light-black"
+"comment.documentation" = "magenta"
+"label" = "green"
+"keyword" = "yellow"
+"keyword.control.return" = "red"
+"keyword.directive" = "red"
+"function" = "blue"
+"function.macro" = "magenta"
+"special" = "cyan"
+"variable" = "off-white"
+
+"operator" = "yellow"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+[palette]
+black = "#060606"
+blackish = "#1c1c1c"
+light-black = "#404040"
+off-white = "#bfbfbf"
+red = "#b32d4e"
+green = "#7fc28e"
+gray = "#595959"
+yellow = "#b2a659"
+blue = "#629cb1"
+magenta = "#5f5d9a"
+cyan = "#3a96dd"
+white = "#cccccc"
